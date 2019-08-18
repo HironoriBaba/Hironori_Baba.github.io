@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#welcome {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	color: white;
+	font-size: 2em;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
+
+	text-align: center;
+	height: 99vmin;
+    background-image: url("./images/FSAE Lincoln 2017 (1459).jpg");
+	/*  
+	background-color: rgba(255,255,255,0.4);
+    background-blend-mode: lighten;
+    */
+    background-repeat: no-repeat;
+    background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+
+}
