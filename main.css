@@ -1,6 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
+	font-family: 'Average Sans', sans-serif;
 }
 
 #welcome {
@@ -11,22 +12,25 @@
 
 	color: white;
 	font-size: 2em;
-	-webkit-text-stroke-width: 1px;
-	-webkit-text-stroke-color: black;
+	/*-webkit-text-stroke-width: 1px;*/
+	/*-webkit-text-stroke-color: black;*/
 
 	text-align: center;
 	height: 99vh;
-    background-image: url("./images/FSAE Lincoln 2017 (1459).jpg");
-	/*  
-	background-color: rgba(255,255,255,0.4);
+    background-image: url("./images/FSAE Lincoln 2017.jpg");
+	  
+	background-color: rgba(255,255,255,0.2);
     background-blend-mode: lighten;
-    */
+    
     background-repeat: no-repeat;
     background-position: center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+}
 
-
+#welcome .stroke {
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
 }
