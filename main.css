@@ -12,8 +12,6 @@
 
 	color: white;
 	font-size: 2em;
-	/*-webkit-text-stroke-width: 1px;*/
-	/*-webkit-text-stroke-color: black;*/
 
 	text-align: center;
 	height: 99vh;
@@ -30,7 +28,95 @@
 	background-size: cover;
 }
 
-#welcome .stroke {
-	-webkit-text-stroke-width: 1px;
-	-webkit-text-stroke-color: black;
+#intro {
+	height: 40vh;
+	font-size: 3vmin;
+	padding: 5vmin;
+}
+
+#work #workHeader {
+	grid-area: workHeader;
+	text-align: center;
+}
+
+#work #yamahaImg {
+	grid-area: yamahaImg;
+}
+
+#work #yamahaDesc {
+	grid-area: yamahaDesc;
+}
+
+#work #genentechImg {
+	grid-area: genentechImg;
+}
+
+#work #genentechDesc {
+	grid-area: genentechDesc;
+}
+
+#work {
+	height: 99vh;
+	display: grid;
+	grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+    	"workHeader workHeader workHeader"
+    	"yamahaImg yamahaDesc yamahaDesc"
+    	"genentechImg genentechDesc genentechDesc";
+}
+
+#work img {
+	height: 50vmin;
+}
+
+#projects #projectsHeader {
+	grid-area: projectsHeader;
+	text-align: center;
+}
+
+#projects #proj1 {
+	grid-area: proj1;
+}
+
+#projects #proj2 {
+	grid-area: proj2;
+}
+
+#projects #proj3 {
+	grid-area: proj3;
+}
+
+#projects #proj4 {
+	grid-area: proj4;
+}
+
+#projects {
+	height: 99vh;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+    	"projectsHeader projectsHeader projectsHeader projectsHeader"
+    	"proj1 proj2 proj3 proj4";
+    justify-items: center;
+}
+
+#projects img {
+	width: 40vmin;
+	height: 40vmin;
+}
+
+#contact {
+	height: 20vh;
+	text-align: center;
+}
+
+#contact img {
+	height: 5vh;
+	padding-top: 4vh;
+}
+
+#contactHeader {
+	text-align: center;
 }
