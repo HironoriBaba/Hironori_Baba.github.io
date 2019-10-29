@@ -40,6 +40,7 @@ html, body, h1, ul {
 #work #workHeader {
 	grid-area: workHeader;
 	text-align: center;
+	place-self: center;
 }
 
 #work #yamahaImg {
@@ -124,4 +125,5 @@ html, body, h1, ul {
 
 #contactHeader {
 	text-align: center;
+	place-self: center;
 }
