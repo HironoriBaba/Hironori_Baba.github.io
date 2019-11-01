@@ -19,7 +19,7 @@ html, body, h1, ul {
 	text-shadow: 2px 2px 10px #000000;
 	text-align: center;
 	height: 100vmin;
-	background-image: url("./images/FSAE_Lincoln_FE6_008.JPG");
+	background-image: url("./images/FSAE_Lincoln_FE6_008.jpg");
 
 	background-color: rgba(255,255,255,0.2);
 	background-blend-mode: lighten;
