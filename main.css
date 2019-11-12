@@ -81,6 +81,15 @@ html, body, h1, ul {
 	height: 50vmin;
 }
 
+#projectInfo {
+	display: none;
+	padding: 10vmin;
+}
+
+#projectInfo div {
+	display: none;
+}
+
 #projects #projectsHeader {
 	grid-area: projectsHeader;
 	place-self: center;

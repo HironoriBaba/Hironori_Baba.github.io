@@ -4,6 +4,8 @@
 	<title>Hironori Baba - Portfolio</title>
 	<link rel="stylesheet" type="text/css" href="main.css"/>
 	<link href="https://fonts.googleapis.com/css?family=Average+Sans&display=swap" rel="stylesheet">
+	<script src="main.js"></script>
+
 	<link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
@@ -65,13 +67,34 @@
 
 	</div>
 
+	<div id="projectInfo">
+		<div id="proj1Info" class="projInfo">
+			<h1>CUSTOM QUADCOPTER</h1>
+			<h2>Fall 2017 - Spring 2018</h2>
+			<p>Mechanical Team Lead</p>
+			<p>I lead the design and manufacture of custom quadcopter. This was the team's very first build project, so the goal was to create a simple, but modifiable quadcopter. The mechanical team had a $100 budget, but I spent less than $50 for the physical parts of the drone!</p>
+		</div>
+		<div id="proj2Info" class="projInfo">
+			<h1>3D PRINTED MULTI-TOOL</h1>
+			<h2>Winter 2017 - Spring 2017</h2>
+			<p>1st place recipient</p>
+			<p>I was part of a team of 5 in a competition where we were tasked with designing and prototyping a multi-tool. The competition emphasized safety and usability, as well as the number of tools. I modeled parts of the multi-tool, ran FEA for our documentation, and 3D printed prototypes.</p>
+		</div>
+		<div id="proj3Info" class="projInfo">
+			<h1>Assembly</h1>
+		</div>
+		<div id="proj4Info" class="projInfo">
+			<h1>Battery Pack</h1>
+		</div>
+	</div>
+
 	<div id="projects">
 		<h1 id="projectsHeader">Projects</h1>
 
-		<img id="proj1" src="./images/DJI_0061.jpg">
-		<img id="proj2" src="./images/Sandia Comp 3.jpg">
-		<img id="proj3" src="./images/Assembly1.jpg">
-		<img id="proj4" src="./images/Battery Pack.jpg">
+		<img id="proj1" src="./images/DJI_0061.jpg" onclick="showInfo(1)">
+		<img id="proj2" src="./images/Sandia Comp 3.jpg" onclick="showInfo(2)">
+		<img id="proj3" src="./images/Assembly1.jpg" onclick="showInfo(3)">
+		<img id="proj4" src="./images/Battery Pack.jpg" onclick="showInfo(4)">
 	</div>
 
 	<div id="contact">
