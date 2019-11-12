@@ -96,6 +96,10 @@ html, body, h1, ul {
 	height: 15vmin;
 }
 
+#projects img {
+  cursor: pointer;
+}
+
 #projects #proj1 {
 	grid-area: proj1;
 }
